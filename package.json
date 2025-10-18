@@ -1,0 +1,23 @@
+{
+  "name": "steam-client-custom-toasts",
+  "version": "0.1.0",
+  "description": "An experimental workaround to change the styles/sizes of notification toasts in Steam desktop client overlay.",
+  "license": "Unlicense",
+  "author": {
+    "name": "Serious Angel",
+    "url": "https://github.com/serious-angel/steam-client-custom-toasts/"
+  },
+  "main": "main.mjs",
+  "bin": "./main.mjs",
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "npm": ">=10",
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node ./main.mjs"
+  }
+}
